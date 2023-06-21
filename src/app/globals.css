@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -24,4 +24,62 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-nav{
+    background-color: #2C2C2C;
+}
+.font-color{
+  color: #72959A;
+  ;
+}
+.font-{
+  background-color: #72959A;
+}
+.bg-drop{
+  border: 1px solid #F2F1F0;
+  border-radius: 1;
+  background-color: #2C2C2C;
+}
+.btn-businees{
+  background-color: #EA8933;
+  /* border-radius: 3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  width: 120px;
+  color:#F2F1F0 ;
+  height: max-content; */
+
+}
+.btn-search{
+  background-color: #EA8933;
+}
+.myname{
+  color: black;
+}
+.serachbar{
+  background-color: #72959A;
+}
+.home-content{
+border: 1px solid red;
+height: 1000px;
+}
+.bg-content-green{
+  background: #013120;
+}
+li{
+  color: #ED510C;
+}
+.bg-footer{
+  background:  #72959A;;
+}
+/* .bg-contact{
+  background-image: url(/images/Bookablebiz.png);
+} */
+.bg-slot{
+ background-color: #72959A;
 }
